@@ -150,6 +150,12 @@ ggplot(average_results, aes(x = mu)) +
 
 ![](homework_5_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
 
+The sample average of mu across rejected tests (blue line) overestimates
+the true mu (red line) for small values of mu. This occurs because
+hypothesis tests are more likely to reject the null when the effect size
+is larger, which leads to a biased estimate. As mu increases, the bias
+decreases, and mu aligns more closely with the true mu.
+
 ## Problem 3
 
 read csv file
